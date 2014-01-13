@@ -1,0 +1,6 @@
+#!/bin/bash
+
+cd /home/texec/subtitles-wiki
+
+php -q export.php
+cp files/index.html /srv/www/subtitles.media.ccc.de/htdocs/
